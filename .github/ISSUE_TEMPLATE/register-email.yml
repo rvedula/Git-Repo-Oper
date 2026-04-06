@@ -1,1 +1,26 @@
+name: Register Email
+description: Submit your email to be registered
+title: "[Email Registration] "
+body:
+  - type: input
+    id: full_name
+    attributes:
+      label: Full Name
+      placeholder: Enter your full name
+    validations:
+      required: true
+
+  - type: input
+    id: email
+    attributes:
+      label: Email Address
+      placeholder: your.email@company.com
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes (optional)
+      placeholder: Add any comments if needed
 
